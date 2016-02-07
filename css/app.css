@@ -1,0 +1,94 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1.lede {
+	font-size: 2em;
+	text-align: center;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	margin: 0;
+	padding:0;	
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.black {
+	background-color: #212121;
+	color:#212121;
+}
+
+.top-bar,
+.top-bar-left {
+	/*background-color: #212121;*/
+}
+
+.titlebar, {
+	font-weight: 700;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	/*padding-top:3px;*/
+}
+
+a.titlebar:link,
+a.titlebar:visited,
+a.titlebar:hover,
+a.titlebar:active {
+	font-weight: 700;
+	font-size: 1.1em;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	/*padding-top:3px;*/
+	text-decoration: none;
+}
+h2 {
+	font-weight: 700;
+
+}
+
+#headlines li {
+	list-style-type: none;
+	list-style-position:inside;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.1em;
+	padding:0.5em 0;
+}
+
+#headlines a:link,
+#headlines a:visited,
+#headlines a:active {
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #064E7A;
+	font-family: 'Open Sans', sans-serif;
+	/*padding-top:3px;*/
+	text-decoration: none;
+}
+
+#navigation a:link,
+#navigation a:visited,
+#navigation a:active {
+	font-weight: 400;
+	font-size: 0.9em;
+	color: #064E7A;
+	text-align: center;
+	text-decoration: none;
+}
+
+.timestamp {
+	font-size: 0.7em;
+	padding-left: .5em;
+	font-style: italic;
+	color:#bbbbbb;
+}
+
+#headlines 
+#headlines ul {margin-left:0;}
